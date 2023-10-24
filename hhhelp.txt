@@ -52,3 +52,19 @@
 34. 
 35. 
 
+
+
+//---------------------------------------------------------------------------------------------------------------------------
+
+#define DI_LOG_TEST - логи пишутся по другому пути, /home/lemon/suts/log
+
+1. CustomLogger, isLogActive = false -не запускается таймер writeTimer на 1 секунду, по которому пишутся логи
+2. constants.hpp - константы, пути всякие
+	#define APS_LIST_PATH "/opt/suts/settings/aps_list.csv"
+	#define LOG_DISK_LABEL "SUTS_LOG_DISK" 
+	enum ApsSystemState {} - состояние АПСок
+	#define METEOR_VERSION 2	- номер корпуса
+		#define PULTS_VERSION 2	- и связанный с ним номер пультов
+3. static void registerMetatypes(); - Метод регистрируут константы в мета-объектной системе Qt
+4. /opt/suts/settings/settings.ini - настройки из гуя, которые передаются с одной моксы на другую
+
