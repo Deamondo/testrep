@@ -69,5 +69,5 @@
 тест ветки helpGITchanges 1
 
 для ветки newbranch 1
-
-
+для ветки newbranch 2
+для ветки newbranch 3
