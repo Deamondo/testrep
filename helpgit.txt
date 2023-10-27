@@ -70,6 +70,8 @@
 это для ветки helpGITchanges
 
 тест ветки helpGITchanges 1
+тест ветки helpGITchanges 2
+тест ветки helpGITchanges 3
 
 для ветки newbranch 1
 для ветки newbranch 2
