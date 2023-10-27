@@ -74,6 +74,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ******************************
 общий тест 2 helpgit
 общий тест 3 helpgit
@@ -84,5 +85,8 @@
 =======
 >>>>>>> hhhelpchanges
 это тест ветки hhhelpchanges 1
-
+||||||| 554b128
+=======
+это тест ветки hhhelpchanges 1
 >>>>>>> hhhelpchanges
+
