@@ -61,4 +61,5 @@
 это для ветки helpGITchanges
 
 тест ветки helpGITchanges 1
+тест ветки helpGITchanges 2
 
