@@ -40,7 +40,7 @@
 	git submodule update - потом это, и они загрузятся
 16. git branch - посмтреть текущую ветку
 	git checkout main - переключиться на ветку main
-	git checkout -b bla_branch - создать новую ветку
+	git checkout -b bla_branch - создать новую ветку 
 17. git tag -a v1.4 -m "my version 1.4" -> создать аннотированый тег, полная копия всех данных
 	без -a -> это легковесный тег, просто указатель на коммит
 	git tag -l - посмотреть таги
