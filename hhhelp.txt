@@ -73,6 +73,7 @@
 общий тест
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ******************************
 общий тест 2 helpgit
 общий тест 3 helpgit
@@ -80,6 +81,8 @@
 общий тест 5 helpgit
 общий тест 6 helpgit
 =======
+=======
+>>>>>>> hhhelpchanges
 это тест ветки hhhelpchanges 1
 
 >>>>>>> hhhelpchanges
