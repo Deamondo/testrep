@@ -77,4 +77,4 @@
 общий тест 3 helpgit
 общий тест 4 helpgit
 общий тест 5 helpgit
-
+общий тест 6 helpgit
