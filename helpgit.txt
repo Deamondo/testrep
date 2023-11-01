@@ -34,7 +34,7 @@
 11. git reset HEAD CONTRIBUTING.md -> убрать уже проиндексированый файл из индекса
 12. git checkout -- CONTRIBUTING.md -> и можно востановить его из последнего коммита
 13. git restore --staged <file> -> отмена индексации файла
-	git restore <file> -> и восстановить файл из последнего коммита
+	git restore <file> -> и восстановить файл в рабочей области из последнего индекса
 	git restore '*' -> воостановить все файлы 
 14. git clone http://gitea.local:3000/abaturov_ds/suts.git -b feature_cts_245 -> клонировать определенную ветку
 15. git submodule  status - посмтреть связаные сабмодули
