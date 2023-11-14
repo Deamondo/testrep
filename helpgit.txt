@@ -61,4 +61,9 @@
 22. git log --oneline --graph bla_branch -> посмотреть коммиты только из ветки bla_branch
 23. ~/.gitconfig -> [alias] 
 			tree = --graph --pretty=oneline -> теперь эту команду можно вызывать по алиасу
-24. 
+24. 	git tree new_githelp
+	git tree 0092aa0e4615
+	git tree master..716995493b529d5d -> раньше..позже
+	git tree 0092aa0e4615..master --ancestry-path
+	git branch --contains 0d1b951f58a20
+	
