@@ -20,6 +20,7 @@
  	git diff src/config.hpp -> или так сравнить один файл
  	git apply ../diffr.dif
  	git diff br1 br2 -- ':!*.cpp' ':!*.hpp' ':!*.qml' -> вывести отличия во всех файлах кроме указаных
+ 	git diff tested develop --name-only - показать только имена файлов
  	git difftool -> вывести отличия в проге которая указана в 
 5. git config core.editor code -> редактор по умолчанию, в данном случае VSCode
 6. git commit -> запустит текстовый редактор (VSCode). там можно писать коментарий для коммита, но я чот не понял как сделать сам commit
