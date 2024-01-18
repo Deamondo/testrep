@@ -3,12 +3,13 @@
 3. remote: Support for password authentication was removed on August 13, 2021.
    fatal: Authentication failed for 'https://github.com/Deamondo/testrep/'
    такая ошибка означает что git не хочет логиниться по пароль, типа это не надежно. Для работы надо установить GCM - Git Credential Manager:
-   	sudo dpkg -i <path-to-package>
-	git-credential-manager configure
+   	- скачать файл gcm-linux_amd64.2.4.1.deb
+   	- sudo dpkg -i <path-to-package>
+	- git-credential-manager configure
 	
 	После этого если выполнить git push, вывалится ошибка fatal: No credential store has been selected.
 	Надо сконфижить еще и гит:
-	git config --global credential.credentialStore secretservice
+	- git config --global credential.credentialStore secretservice
 	После этого можно проконтролировать состояние с помощью git config --list.
  На винду он установился при инсталляции в процессе, поэтому все там и заработало. А в Ubuntu надо доставить и сконфижить было.
  
