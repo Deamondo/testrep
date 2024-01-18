@@ -81,4 +81,6 @@
 	git remote rm bla-origin
 	
 28. git branch --track fix_CTS-51 -> 
+29. git clone https://github.com/Deamondo/testrep.git . -> точка в конце означает клонировать без создания подпапки testrep
+
 

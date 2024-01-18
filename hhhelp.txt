@@ -2,6 +2,7 @@
 2. ls -a = посмотреть список всего что лежит в текущей папке включая скрытые 
 3. ls -F = выделить папки слешом /
 4. history = история команд
+	history | tail -20 -> последние 20 команд
 5. grep 'blablabla' filename.txt = поиск слов в файлах
 6. grep -w = поиск слова целиком
 7. cat filename = посмотреть содержимое файла
@@ -22,7 +23,7 @@
 	sudo cat /proc/tty/driver/serial - тоже способ
 	grep serial /proc/ioports - и это тоже
 21. ln -s /usr/lib/x86_64-linux-gnu/libpng16.so.16 /usr/lib/x86_64-linux-gnu/libpng12.so.0 -> создать софт линк из источника в назначение
-	ln -s ~/Qt5.12.8/Tools/QtCreator/bin/qtcreator qtt -> создать ссылку на Qt. Если создать ее в ./.local/bin/, то можно вызывать из консоли из любого места
+	ln -s ~/Qt5.12.8/Tools/QtCreator/bin/qtcreator qtt -> создать ссылку на Qt. Если создать ее в usr/local/bin/, то можно вызывать из консоли из любого места
 	ls -li qtt -> проверить номер иноды этой ссылки. 
 	chown -h your_user:your_group qtt -> сменить права для линка
 22. which qml -> посмотреть в какой папке установлена утилита
@@ -80,7 +81,10 @@
 	Esc > Ctrl+R - прменить изменения обратно
 	Esc > dd - удалить строку
 	Esc > v - выделять текст стрелками. 
-	
+46. find -L /home -samefile /home/admin/123.txt -xtype l - поиск всех софт линков, привязаных к конкретному файлу
+47. ssh-keygen - сгенерировать пару ключей. Они лягут в ~/.ssh/. Там будет два файла, один из них публичный
+48. find /path/to/file/ -iname filename* -> найти файлы по такому то пути. iname - только если нашел
+49. 
 
 
 
