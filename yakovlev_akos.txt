@@ -13,3 +13,24 @@
 	       - layout regs
 	        -next - Дальше можно прыгать по коду (или n)
 
+лекция 7:
+	lspci (/sbin/lspci) - список всех pci-устройств
+	lsusb - 
+	/sys/bus/pci/devices - можно найти нужное устройство, 00:1f:4 - audio, посмтреть его прерывание например
+	Bare_bones - игрушечная ОС, самая простая
+		make iso
+	man 2 write
+	/boot - vmlinuz: this is kernel
+	./grub2 - grug.cfg
+	time - время работы процесса 
+	lsmod - список загруженых модулей
+	modprobe [module] - загрузить модуль
+	cat /usr/include/asm/unustd_32.h - список системных вызовов
+	man 2 syscall - фция для вызова системного вызова
+	ldd -> 
+		linux-vdso.so - библиотека с некоторыми системными вызовами, подгружается динамически для каждого процесса
+		man 7 vdso - 
+
+
+
+лекция 8:

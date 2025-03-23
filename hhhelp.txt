@@ -176,19 +176,3 @@ VSCode:
 7. Ctrl + 1,2,3 - переходить межды редакторами
 8. Alt + 1,2,3 - переходить между вкладками
 
-
-Акос:
-1. лекция 5: 
-	- qemu-arm -g 1234 ./a.out - запуск gdb-сервера в эмуляции arm-процессора. Ждет подключения удаленного gdb 
-	- gdb
-	 - file a.out
-	  - set sysroot ~/arm-sysroot/
-	   - set architecture armv7
-	    - b main - точка останова на main. 
-	     - target remote localhost:1234 - подключиться к удаленному gdbserver.
-	      - continue
-	       - layout src
-	       - layout asm
-	       - layout regs
-	        -next - Дальше можно прыгать по коду (или n)
-
